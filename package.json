@@ -19,7 +19,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
-    "postinstall": "cd ./node_modules/laravel-echo-server-updated && npm install && npm run build"
+    "postinstall": "cd ./node_modules/laravel-echo-server-updated && npm install && npm run build",
     "prepublish": "npm run build"
   },
   "dependencies": {
