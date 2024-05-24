@@ -19,6 +19,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
+    "prepare": "npm run build"
     "prepublish": "npm run build"
   },
   "dependencies": {
